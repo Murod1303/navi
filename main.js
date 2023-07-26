@@ -34,6 +34,13 @@ elForm.addEventListener("submit", (evt) => {
 })
 
 
+elForm.addEventListener("onkeydown", (evt)=> {
+  if (evt.keyCode !== String) {
+    evt.preventDefault();
+  }
+})
+
+
 
 
 var colors = new Array(
